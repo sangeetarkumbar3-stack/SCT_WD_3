@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.option {
+  background: white;
+  color: black;
+}
+
+.option:hover {
+  background: #ddd;
+}
+
+#nextBtn {
+  background: #00c6ff;
+  color: white;
+}
+
+#timer {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#progress {
+  margin-bottom: 10px;
+}
